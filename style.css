@@ -1,0 +1,644 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+background-color: black;
+}
+
+
+.big-blue-header {
+    height: 300px;
+    width: 850px;
+    background-color: rgb(86, 75, 169);
+    margin: 0px auto;
+}
+
+.profile-photo {
+    position: relative;
+    background-color: rgb(86, 75, 169);
+    height: 200px;
+    width: 200px;
+     top: 150px;
+     left: 20px;
+     border: 1px solid black;
+     border-radius: 1.75%;
+     z-index: 2;
+     background-image: url("./me.jpg");
+     background-size: cover;
+}
+
+h1 {
+    color: white;
+    position: relative;
+    left: 100px;
+    top: -20px;
+}
+
+.mine a {
+    position: relative;
+    color: white;
+    font-size: large;
+    left: -100px;
+    top: -20px;
+    
+}
+
+.mine a:hover {
+    color: fuchsia;
+}
+
+    
+
+
+
+
+button {
+    border: 1px solid lightgray;
+    border-radius: 5%;
+    background-color: lightgray;
+    padding: 10px;
+    font-size: small;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    
+}
+
+.button-group {
+    float: right;
+    position: relative;
+    top: 40px;
+    right: 10px;
+    margin: 0px;
+}
+
+#like {
+font-weight: bold;
+font-size: 15px;
+margin: 3px;
+}
+
+#like:hover {
+font-size: 10px;
+color: fuchsia;
+}
+
+#Follow {
+    font-size: 15px;
+}
+
+#Follow:hover {
+    font-size: 10px;
+    color: fuchsia
+}
+
+#message {
+    font-size: 15px;
+}
+
+#message:hover {
+    font-size: 10px;
+    color: fuchsia;
+}
+
+#dot-dot-dot {
+font-size: 15px;
+}
+
+#dot-dot-dot:hover{
+    font-size: 10px;
+    color: fuchsia;
+}
+.navbar {
+    position: relative;
+    background-color: white;
+    height: 80px;
+    width: 850px;
+    border: 1px solid black;
+    margin: 0px auto;
+
+}
+
+.block li {
+    position: relative;
+    display: inline-block;
+    font-size: larger;
+    left: -30px;
+    top: 15px;
+    padding: 10px;
+  
+}
+
+.timeline {
+    font-weight: bold;
+   border-bottom: 3px solid black;
+}
+
+.about {
+    border-right: 2px solid lightgray;
+}
+
+.welcome {
+    border-right: 2px solid lightgray;
+}
+
+.FWB {
+    border-right: 2px solid lightgray;
+}
+
+.more {
+    border-right: 2px solid lightgray;
+}
+
+
+
+
+
+#columns {
+   position: relative;
+    width: 850px;
+    height: 1000px;
+    display: inline-block;
+    margin: 0px auto;
+}
+
+
+
+
+
+#column1 {
+border: 1px solid black;
+width: 328px;
+height: 5000px;
+float: left;
+background-color: fuchsia;
+margin: 0px 10px 0px 0px;
+
+}
+
+#outerbox1 {
+    position: relative;
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    left: 10px;
+    margin-top: 10px;
+    background-color: rgb(221, 115, 224);
+
+    }
+    #topbox1 {
+        position: relative;
+        height: 30px;
+        width: 298px;
+        border-bottom: 3px solid black;
+    }
+
+    #welcome {
+        position: relative;
+        height: 10px;
+        width: 25px;
+        left: 50px;
+        top: -10px;
+        color: black;
+    }
+
+    #middlebox1 {
+        position: relative;
+        height: 185px;
+        width: 298px;
+        border-bottom: 3px solid black;
+    }
+
+    #welcomeinfo {
+        position: relative;
+        line-height: 30px;
+        padding: 5px;
+        font-size: larger;
+        font-weight: bold;
+    }
+
+    #bottombox1 {
+        position: relative;
+        height:45px;
+        width: 298px;
+        border-top: none;
+    }
+
+    #bottombox1 img {
+        position: relative;
+        height: 25px;
+        width: 25px;
+        top: 10px;
+        left: -115px;
+    }
+
+    #facebook a{
+        position: relative;
+        height: 20px;
+        width: 20px;
+        top: -35px;
+        left: 5px;
+        font-size: 25px;
+        color: black;
+    }
+
+    #facebook a:hover {
+        font-size: 20px;
+        color: white;
+
+    }
+
+    #outerboxabout {
+    position: relative;
+    border: 2px solid black;
+    height: 290px;
+    width: 300px;
+    left: 10px;
+    margin-top: 10px;
+    background-color: rgb(221, 115, 224);
+    }
+
+    #aboutme {
+        position: relative;
+        height: 50px;
+        width: 298px;
+        border-bottom: 3px solid black;
+    }
+
+    #me {
+        position: relative;
+        height: 75;
+        width: 200px;
+       left: 10px;
+       top: -10px;
+       color: black;
+        
+
+    }
+    #aboutme img { 
+        position: relative;
+        height: 50px;
+        width: 40px;
+        top:-75px;
+        left: 120px;
+        
+        
+    }
+
+    #adress {
+    position: relative;
+    height: 115px;
+    width: 298px;
+    border-bottom: 3px solid black; 
+}
+
+#adress img {
+    position: relative;
+    height: 25px;
+    width: 25px;
+    top: -75px;
+    left: 0px;
+    float: left;
+}
+
+#phone {
+    position: relative;
+    height: 50px;
+    width: 298px;
+}
+
+#phone img {
+    position: relative;
+    height: 25px;
+    width: 25px;
+    top: -40px;
+    left: -120px;
+}
+
+
+
+
+#outerboxshop {
+    position: relative;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    left: 10px;
+    margin-top: 10px;
+    background-color: rgb(221, 115, 224);
+}
+
+#apps {
+    position: relative;
+    height: 50px;
+    border-bottom: 2px solid black;
+    font-size: 40px;
+    top: -4px;
+}
+
+#amazonbox {
+    position: relative;
+    height: 100px;
+    width: 300px;
+    top: -4px;
+    border-bottom: 2px solid black;
+}
+
+#amazonbox img {
+    position: relative;
+    height: 98px;
+    width: 150px;
+    left: -60px;
+    top: -2px;
+}
+
+#amazonlink {
+    position: relative;
+    top: -50px;
+    left: 100px;
+}
+
+
+#ebaybox {
+    position: relative;
+    height: 100px;
+    width: 300px;
+    top: -4px;
+    border-bottom: 2px solid black;
+}
+
+#ebaybox img {
+    position: relative;
+    height: 100px;
+    width: 150px;
+    left: -75px;
+}
+
+#walmartbox {
+    position: relative;
+    height: 100px;
+    width: 300px;
+    top: -4px;
+    border-bottom: 2px solid black;
+}
+
+#walmart img {
+    position: relative;
+    height: 100px;
+    width: 150px;
+    left: -75px;
+}
+
+
+
+
+
+
+
+#column2 {
+    border: 1px solid black;
+    width: 512px;
+    height: 5000px;
+    float: left;
+  margin: 0px;
+  background-color: fuchsia;
+}
+  
+#outerboxHF {
+    position: relative;  
+    height: 400px;
+    width: 475px;
+    border: 3px solid black;
+    left: 15px;
+    margin-top: 10px;
+    background-color: rgb(221, 115, 224);
+}
+
+#outerboxHF img {
+    position: relative;
+    top: 10px;
+    left: -175px;
+  height: 100px;
+  width: 100px; 
+}
+
+#toprightbox {
+    position: relative;
+    margin-top: -125px;
+    height: 120px;
+    width: 350px;
+    top: 25px;
+    left: 120px;
+    }
+
+
+
+#face a {
+    position: relative;
+    height: 10px;
+    width: 350px;
+   left: -120px; 
+   color: black;
+    }
+
+#face a:hover  {
+   color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+
+    
+
+
+
+#HFinfo { 
+    position: relative;
+    top: -40px;
+    left: 10px; 
+    }
+
+#HFtime {
+    position: relative;
+    top: -50px;
+    left: -125px;
+}
+
+#middleboxHF {
+position: relative;
+border: 2px solid black;
+height: 220px;
+width: 470px;
+background-image: url("./dig\ in.jpg");
+background-size: contain;
+}
+
+
+
+#footerboxHF {
+height: 120px;
+width: 465px;
+top: -100px
+
+}
+
+#itemsHF {
+    position: relative;
+   display: inline;
+    margin: 0px auto;
+    list-style-type: none;
+    left: -100px;
+    top: 35px;
+    font-size: x-large;
+}
+
+#likeHF {
+    position: relative;
+    display: inline-block; 
+    padding: 10px;
+    top: -30px;
+    border-right: 2px solid black;
+}
+
+#commentHF {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    top: -30px;
+    border-right: 2px solid black;
+}
+
+#shareHF {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    top: -30px;
+    border-right: 2px solid black;
+}
+
+
+
+
+
+#outerboxSB {
+    position: relative;  
+    height: 400px;
+    width: 475px;
+    border: 3px solid black;
+    left: 15px;
+    margin-top: 10px;
+    background-color: rgb(221, 115, 224);
+}
+
+
+#cupcake img {
+    position: relative;
+    top: 10px;
+    left: -175px;
+  height: 100px;
+  width: 100px; 
+}
+
+
+#toprightboxSB {
+    position: relative;
+    margin-top: -125px;
+    height: 120px;
+    width: 350px;
+    top: 25px;
+    left: 120px;
+
+}
+
+
+#mycupcake a{
+    position: relative;
+    height: 10px;
+    width: 350px;
+   left: -95px; 
+   color: black;
+}
+
+#mycupcake a:hover {
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+
+
+#SBinfo {
+    position: relative;
+    top: -40px;
+    left: 50px; 
+}
+
+
+#SBtime {
+    position: relative;
+    top: -50px;
+    left: -125px;
+}
+
+#middleboxSB {
+    position: relative;
+border: 2px solid black;
+height: 220px;
+width: 470px;
+background-image: url("./simones\ background.jpg");
+}
+
+
+#footerboxSB {
+    height: 120px;
+width: 465px;
+top: -100px
+}
+
+
+#itemsSB {
+    position: relative;
+    display: inline;
+     margin: 0px auto;
+     list-style-type: none;
+     left: -100px;
+     top: 35px;
+     font-size: x-large;
+}
+
+
+#likeSB {
+    position: relative;
+    display: inline-block; 
+    padding: 10px;
+    top: -30px;
+    border-right: 2px solid black;
+}
+
+
+#commentSB {
+    position: relative;
+    display: inline-block; 
+    padding: 10px;
+    top: -30px;
+    border-right: 2px solid black;
+}
+
+#shareSB {
+    position: relative;
+    display: inline-block; 
+    padding: 10px;
+    top: -30px;
+    border-right: 2px solid black;
+}
+
+
+
+
+
+
+
+
